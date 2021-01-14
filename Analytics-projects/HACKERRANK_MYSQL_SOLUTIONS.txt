@@ -1,0 +1,157 @@
+SELECT CONCAT(Name, "(", LEFT(Occupation, 1), ")" 
+FROM OCCUPATIONS
+
+//
+
+SELECT CONCAT("There are a total of ", COUNT(occupation)," ", LOWER(occupation), "s")
+FROM occupations
+GROUP BY occupation
+ORDER BY COUNT(occupation) ASC, occupation DESC
+
+// 
+
+SELECT c.contest_id, c.hacker_id, c.name, SUM(s.total_submissions), SUM(s.total_accepted_submissions), SUM(v.total_views), SUM(v.total_unique_views)
+FROM CONTESTS c,
+JOIN COLLEGES co ON c.contest_id=co.contest_id
+JOIN CHALLENGES ch ON co.challenge_id = ch.challenge_id
+JOIN VIEW_STATS v ON ch.challenge_id = v.challenge_id
+JOIN SUBMISSION s ON ch.challenge_id = s.challenge_id
+GROUP BY c.contest_id, c.hacker_id, c.name
+HAVING SUM(s.total_submissions) > 0 OR SUM(s.total_accepted_submissions) > 0 OR SUM(v.total_views) > 0 OR SUM(v.total_unique_views) > 0 
+ORDER BY c.contest_id
+
+//
+
+SELECT bst.N
+	, CASE WHEN bst.P is null 
+			THEN "Root"
+	       WHEN bst.N in (SELECT test.P 
+				FROM BST AS test)
+			THEN "Inner"
+		ELSE "Leaf"
+	END AS type
+FROM BST AS bst
+
+//
+WITH Lead AS 
+(SELECT company_code
+, count(distinct (lead_manager_code)) AS lead_count
+FROM Lead_Manager
+GROUP BY company_code),
+
+Senior AS 
+(SELECT company_code
+, count(distinct (senior_manager_code)) AS senior_count
+FROM Senior_Manager
+GROUP BY company_code),
+
+Manager AS 
+(SELECT company_code
+, count(distinct (manager_code)) AS manager_count
+FROM Manager
+GROUP BY company_code),
+
+Employee AS 
+(SELECT company_code
+, count(distinct (employee_code)) AS employee_count
+FROM Employee
+GROUP BY company_code),
+
+
+SELECT company.company_code
+, company.founder
+, lead.lead_count
+, senior.senior_count
+, manager.manager_count
+,employee.employee_count 
+
+FROM Company as company
+INNER JOIN Lead AS lead ON company.company_code=lead.company_code
+INNER JOIN Senior AS senior ON company.company_code=senior.company_code
+INNER JOIN Manager AS manager ON company.company_code=manager.company_code
+INNER JOIN Employee AS employee ON company.company_code=employee.company_code
+
+ORDER BY company.company_code ASC
+
+// 
+
+SELECT CASE WHEN s.Marks <= 59 THEN NULL
+	ELSE s.Name 
+	END AS Name
+, (SELECT g.Grade FROM Grades AS g WHERE s.Marks >= g.Min_Mark ANS s.Marks <= g.Max_Mark) AS Grade  
+, s.Marks
+FROM Students AS s
+
+//
+
+WITH a AS (
+SELECT sub.hacker_id, sub.challenge_id, sub.score, ch.difficulty_level
+FROM Challenges AS ch
+INNER JOIN Submissions AS sub ON ch.challenge_id = sub.challenge_id),
+
+b AS (
+SELECT a.hacker_id, a.challenge_id
+FROM a as a
+INNER JOIN Difficulty as d ON a.difficulty_level=d.difficulty_level
+WHERE a.score=d.score),
+
+c AS (
+SELECT b.hacker_id, b.challenge_id, h.name
+FROM b AS b
+INNER JOIN Hackers AS h ON b.hacker_id=h.hacker_id
+)
+
+SELECT hacker_id, Name
+FROM c
+GROUP BY hacker_id, Name
+HAVING COUNT(challenge_id) > 1
+ORDER BY COUNT(challenge_id) DESC, hacker_id ASC;
+
+//
+
+WITH a AS (
+SELECT wands.id
+    , wandsprop.age
+    , wands.coins_needed
+    , wands.power
+    , rank() OVER (PARTITION BY wands.power, wandsprop.age ORDER BY wands.coins_needed ASC) AS rank
+FROM Wands AS wands
+INNER JOIN Wands_Property AS wandsprop ON wands.code=wandsprop.code
+WHERE wandsprop.is_evil = 0)
+
+SELECT id, age, coins_needed, power
+FROM a
+WHERE rank=1
+ORDER BY power DESC, age DESC;
+
+//
+
+WITH a AS (
+SELECT hacker_id, count(challenge_id) as count
+FROM Challenges
+GROUP BY hacker_id
+),
+
+b AS (
+SELECT h.hacker_id
+, h.name
+, a.count
+, count(h.hacker_id) OVER (PARTITION BY a.count) as number_of_students_per_count
+FROM Hackers AS h
+INNER JOIN a AS a ON a.hacker_id=h.hacker_id
+)
+
+SELECT hacker_id, name, count
+FROM b
+WHERE count = (SELECT max(count) FROM b)
+or (count < (SELECT max(count) FROM b) and number_of_students_per_count = 1) 
+ORDER BY count DESC, hacker_id;
+
+//
+
+
+
+
+
+
+
