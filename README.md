@@ -7,7 +7,7 @@ This repository presents all my personal projects and work related to data scien
 This section contains all projects and work related to Analytics. This means, all projects related to the following topics: Data Analysis, Mining and Visualizations. 
 For now, it contains three distinct projects: multiplayer survey analysis, powerbi-training, and hackerrank SQL solutions. No further projects are planned for now.
 
-## Data science
+## Data science projects
 
 This section contains all projects and work related to Data Science. This means, all projects related to the following topics: Webscrapping, Data exploration, Machine Learning, Deep Learning, Natural Language Processing.
 For now, it contains two distinct projects: housing prediction, tennis sentiment analysis.
