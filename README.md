@@ -9,7 +9,7 @@ For now, it contains three distinct projects: multiplayer survey analysis, power
 
 ### Multiplayer market analysis
 
-This analysis was done as part of a much larger personal/secret project about the development of a mobile application. (The whole project is in french, don't worry it's the only one).
+This analysis was done as part of a much larger personal/secret project about the development of a mobile application. (The whole project is in french, don't worry it's the only one). Feel free to look in more details at the visuals in the notebook and how they are created.
 The objective of this project was to gather data about the behaviour of multiplayer videogame players, and in particular who and how do they find people to play with. It involves several technical skills used during the different steps of the project:
 
 1. Designing and forward a survey
