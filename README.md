@@ -21,6 +21,8 @@ The objective of this project was to gather data about the behaviour of multipla
 6. Sum-up our results from a business perspective.
 
 
+![Example of playing frequency visualization](https://github.com/grillon6u/Data-Science-projects/blob/main/template%26images/images/marketAnalysis.PNG)
+
 ### PowerBI training
 
 This project was done during my time training in PowerBI. It consists in the building of dashboards relating to different datasets. Two distinct dashboards were made: AW dashboard, and AI dashboard.
@@ -35,9 +37,12 @@ The building of that dashboard involved three main steps:
 3. Creating the metrics that we want to visualize using the DAX language
 4. Visualising those KPIs in the best way possible (exploring different types of plot, and how their context interact)
 
+![Main interface of the dashboard](https://github.com/grillon6u/Data-Science-projects/blob/main/template%26images/images/pBI_AW.PNG)
 #### AI dashboard
 
 This dashboard only connects to one source (kickstarter projects and their results). The main objective was here to explore the AI features of powerBI, as seen in the report.
+
+![Main interface of the dashboard](https://github.com/grillon6u/Data-Science-projects/blob/main/template%26images/images/pBI_AI.PNG)
 
 ### Hackerrank SQL
 
@@ -63,10 +68,19 @@ The project consists in several steps:
 
 1. Importing the data
 2. Exploratory Data Analysis (using pandas, klib, pandas-profiling)
+
+
 3. Feature Engineering (creation of the pipelines)
 4. Training of Machine Learning models (sklearn, xgboost)
+
 5. Fine-tuning those models (gridsearch, randomizedsearch)
 6. Combining them into one even more performant model using ensemble learning.
+
+![EDA of the housing prices in the Californian region](https://github.com/grillon6u/Data-Science-projects/blob/main/template%26images/images/screenHouse.PNG)
+
+![Key insights about the target metrci using klib](https://github.com/grillon6u/Data-Science-projects/blob/main/template%26images/images/housingEDA.PNG)
+
+![Example of a decision tree applied to our dataset](https://github.com/grillon6u/Data-Science-projects/blob/main/template%26images/images/DecisionTree.PNG)
 
 ### Tennis sentiment analysis (Webscrapping, twitter scrapping, NLP)
 
@@ -76,6 +90,7 @@ This project's goal is to compare the global popularity of the most famous tenni
 3. Connecting to twitter and retrieving tweets about the players (using tweepy)
 4. Analsying the content of those tweets, and calculating their polarity (how positive they are) using Natural Language Processing (nltk, textblob)
 5. Plotting their popularity as a rollong moving average
+![Rolling moving average of Novak Djokovic's popularity on twitter](https://github.com/grillon6u/Data-Science-projects/blob/main/template%26images/images/Djokovic.PNG)
 
 ### Shout out
 I would like to thank:
