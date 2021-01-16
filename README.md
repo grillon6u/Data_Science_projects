@@ -2,7 +2,7 @@
 
 This repository presents all my personal projects and work related to data science. The repository is split in three sections: Analytics, Data Science and template.
 
-## Analytics projects
+## [Analytics projects](https://github.com/grillon6u/Louis_Portfolio/tree/main/Analytics-projects)
 
 This section contains all projects and work related to Analytics. This means, all projects related to the following topics: Data Analysis, Mining and Visualizations. 
 For now, it contains three distinct projects: multiplayer survey analysis, powerbi-training, and hackerrank SQL solutions. No further projects are planned for now.
