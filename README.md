@@ -1,4 +1,4 @@
-# Data-Science-projects
+# Louis's Portfolio
 
 This repository presents all my personal projects and work related to data science. The repository is split in three sections: Analytics, Data Science and template.
 
