@@ -115,7 +115,7 @@ This project's goal is to classify images of hand written pictures, using Machin
 6. Apply Ensemble Learning (Bagging, Stacking) to the models that are performing the best
 7. Data augmentation (improving our dataset), by creating new images from the ones we already have, from simple rotations and translations, to GANs.
 
-![PCA](template%26images/images/djoko.jpg)
+![PCA](template%26images/images/screenPCA.PNG)
 
 
 ### Shout out
