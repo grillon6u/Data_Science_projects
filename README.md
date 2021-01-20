@@ -27,7 +27,7 @@ The objective of this project was to gather data about the behaviour of multipla
 
 ### [Project 2: PowerBI training](https://github.com/grillon6u/Louis_Portfolio/tree/main/Analytics-projects/PowerBI-training)
 
-Topics: **Data engineering**, **Data modelling**, **Data acquisition**, **Data cleaning**, **Data processing**, **ETL**, **Business Intelligence**, **Data visualization**, **Measure calculation**, **PowerBI dashboard**
+Topics: **Data engineering**, **Data modelling**, **Data acquisition**, **Data cleaning**, **Data processing**, **ETL**, **Business Intelligence**, **Data visualization**, **Measure calculation**, **PowerBI dashboard**, **Artificial Intelligence**
 
 This project was done during my time training in PowerBI. It consists in the building of dashboards relating to different datasets. Two distinct dashboards were made: AW dashboard, and AI dashboard.
 
@@ -42,8 +42,6 @@ The building of that dashboard involved three main steps:
 4. Visualising those KPIs in the best way possible (exploring different types of plot, and how their context interact)
 
 ![Main interface of the dashboard](template%26images/images/AW.jpg)
-
-Topics: **Data visualization**, **Business Intelligence**, **PowerBI dashboard**, **Artificial Intelligence**
 
 #### [AI dashboard](https://github.com/grillon6u/Louis_Portfolio/tree/main/Analytics-projects/PowerBI-training/Power_BI_AI_Visuals)
 
