@@ -116,6 +116,7 @@ This project's goal is to classify images of hand written pictures, using Machin
 7. Data augmentation (improving our dataset), by creating new images from the ones we already have, from simple rotations and translations, to GANs.
 
 ![PCA](template%26images/images/scrrenPCA.PNG)
+![training](template%26images/images/deepl.PNG)
 ![Final confusion matrix](template%26images/images/confusionMatrix.PNG)
 
 
