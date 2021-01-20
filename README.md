@@ -97,7 +97,7 @@ This project's goal is to compare the global popularity of the most famous tenni
 2. Creating their twitter names using basic string methods
 3. Connecting to twitter and retrieving tweets about the players (using tweepy)
 4. Analsying the content of those tweets, and calculating their polarity (how positive they are) using Natural Language Processing (nltk, textblob)
-5. Plotting their popularity as a rollong moving average
+5. Plotting their popularity as a rolling moving average
 ![Rolling moving average of Novak Djokovic's popularity on twitter](template%26images/images/djoko.jpg)
 
 ### [Project 5: Computer Vision and Image classification using Machine Learning and Generative Adversial Networks (WIP)](https://github.com/grillon6u/Data_Science_projects/tree/main/Data-science-projects/Image%20classification%2C%20Dimensonality%20reduction%20and%20Generative%20Artificial%20Networks)
