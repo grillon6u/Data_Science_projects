@@ -102,10 +102,29 @@ This project's goal is to compare the global popularity of the most famous tenni
 5. Plotting their popularity as a rollong moving average
 ![Rolling moving average of Novak Djokovic's popularity on twitter](template%26images/images/djoko.jpg)
 
+### [Project 5: Computer Vision and Image classification using Machine Learning and Generative Adversial Networks (WIP)](https://github.com/grillon6u/Data_Science_projects/tree/main/Data-science-projects/Image%20classification%2C%20Dimensonality%20reduction%20and%20Generative%20Artificial%20Networks)
+
+Topics:  **Computer Vision**, **Data cleaning**, **Dimensonality reduction**, **Clustering**, **Machine Learning**, **Ensemble Learning**, **Deep Learning**, **Generative Adversial Network**, **Stacking**
+
+This project's goal is to classify images of hand written pictures, using Machine Learning and Deep Learning techniques. Then, in a second time, we will try to re-generate more pictures using Generative Adversial Networks. The main steps of the project are:
+1. Importing the data, and visualizing the pictures of the dataset, in order to understand what we are dealing with
+2. Preprocessing the data, using unsupervised learning (PCA, clustering)
+3. Cleaning the images to improve performance
+4. Trying out Machine Learning and Deep Learning models (Logistic regression, SVM, KNN, RandomForest, XGBoost, MultiLayer Perceptron)
+5. Measuring their accuracy, and trying to improve it by fine-tuning their hyperparameters
+6. Apply Ensemble Learning (Bagging, Stacking) to the models that are performing the best
+7. Data augmentation (improving our dataset), by creating new images from the ones we already have, from simple rotations and translations, to GANs.
+
+![PCA](template%26images/images/scrrenPCA.PNG)
+![Final confusion matrix](template%26images/images/confusionMatrix.PNG)
+
+
 ### Shout out
 I would like to thank:
 - Aurelien Geron, who wrote "Hands-on ML", which I highly recommend
 - Nicholas Renotte and Ken Jee, whose articles and tutorials helped me a lot.
+- TensorFlow tutorials about deep learning, neural networks.
+- Jason Brownlee, for his tutorials and articles about computer vision with keras
 
 ## template&images
 
