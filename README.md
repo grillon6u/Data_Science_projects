@@ -1,6 +1,6 @@
 # [Louis's Portfolio](https://github.com/grillon6u/Louis_Portfolio)
 
-This repository presents all my personal projects and work related to data science. The repository is split in three sections: Analytics, Data Science and template&images. Feel free to **clic on any project** to go visualize more details on GitHub and find the full code and explanation, and notebooks that will explain more in-depth each step!
+This repository presents all my personal projects and work related to data science. The repository is split in three sections: Analytics, Data Science and template&images. Feel free to **clic on any project** to go visualize more details on GitHub and find the full code and explanation, and notebooks that will explain more in-depth each step! All projects, except the PowerBi one, are done with Jupyter Notebooks. If you cannot open Jupyter Notebooks, don't worry, you will find an html version of each project that you can open with any browser.
 
 ## [Analytics projects](https://github.com/grillon6u/Louis_Portfolio/tree/main/Analytics-projects)
 
