@@ -1,6 +1,6 @@
 # [Louis's Portfolio](https://github.com/grillon6u/Louis_Portfolio)
 
-This repository presents all my personal projects and work related to data science. The repository is split in three sections: Analytics, Data Science and template&images. Feel free to **clic on any project** to go visualize more details on GitHub and find the full code and explanation, and notebooks that will explain more in-depth each step!
+This repository presents all my personal projects and work related to data science. The repository is split in three sections: **Analytics**, **Data Science** and template&images. Feel free to **clic on any project** to go visualize more details on GitHub and find the full code and explanation, and notebooks that will explain more in-depth each step! All projects, except the PowerBi one, are done with Jupyter Notebooks. If you cannot open Jupyter Notebooks, don't worry, you will find an html version of each project that you can open with any browser.
 
 ## [Analytics projects](https://github.com/grillon6u/Louis_Portfolio/tree/main/Analytics-projects)
 
@@ -65,8 +65,8 @@ I would like to thank:
 ## [Data science projects](https://github.com/grillon6u/Louis_Portfolio/tree/main/Data-science-projects)
 
 This section contains all projects and work related to Data Science. This means, all projects related to the following topics: Webscrapping, Data exploration, Machine Learning, Deep Learning, Natural Language Processing.
-For now, it contains two distinct projects: housing prediction, tennis sentiment analysis.
-Further projects are still work in progress and will soon be added: computer vision (face mask detection) using deep learning, image classifier using machine learning / image generator using GANs.
+For now, it contains three distinct projects: housing prediction, tennis sentiment analysis and computer vision and classification using ML and Deep Learning.
+Further projects are still work in progress and will soon be added: computer vision (face mask detection) using deep learning.
 
 ### [Project 3: Housing prediction regression (EDA, ML)](https://github.com/grillon6u/Louis_Portfolio/tree/main/Data-science-projects/housing_prediction_regresssion)
 
