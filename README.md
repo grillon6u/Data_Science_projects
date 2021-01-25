@@ -116,7 +116,7 @@ This project's goal is to classify images of hand written pictures, using Machin
 ![PCA](template%26images/images/scrrenPCA.PNG)
 ![training](template%26images/images/deepl.PNG)
 ![Final confusion matrix](template%26images/images/confusionMatrix.PNG)
-
+![Gif of GAN generating](Data-science-projects/Image%20classification%2C%20Dimensonality%20reduction%20and%20Generative%20Artificial%20Networks/Images/dcgan.gif)
 
 ### Shout out
 I would like to thank:
