@@ -20,7 +20,7 @@ The objective of this project was to gather data about the behaviour of multipla
 4. Analysing each of the types of answer, and splitting them thanks to other answers (matplotlib, seaborn)
 5. Create hypothesis about the data, and statistically confirm (or reject) them. (Stats, Chi square testing)
 6. Use Natural Language Processing in order to analyze the questions that could have text answers. (nltk, textblob)
-6. Sum-up our results from a business perspective.
+7. Sum-up our results from a business perspective.
 
 
 ![Example of playing frequency visualization](template%26images/images/market.jpg)
@@ -49,6 +49,24 @@ This dashboard only connects to one source (kickstarter projects and their resul
 
 ![Main interface of the dashboard](template%26images/images/AI.jpg)
 
+### [Project 3: Stock market trading](https://github.com/grillon6u/Data_Science_projects/tree/main/Analytics-projects/Stock%20Trading)
+
+Topics: **Stock trading**, **Sentiment analysis**, **wallstreetbets**, **Algorithmic trading**, **Data visualization**, **Trading bot**, **MACD**, **Natural Language Processing**
+
+This project's goal is to analyze data from different subreddits (wallstreetbets, stockexchange,...) in order to choose in which stock to invest for a given day, and then to actually invest in it at the right time, in order to make a measurable profit. (This project also involved understanding how the stock market actually works). The main steps of the project are:
+
+1. Measuring the evolution of the number of times each stock is mentionnent in those subreddits (python, praw)
+2. Combining those results with the evolution of the sentiment (the positivity) of those quotes, in order to identify the stocks (AAPL, GME, ...) that have a good trend from a social media point of view (pandas, nltk)
+3. Adding stocks that are trending on yahoo finance, while parsing it (mybeautifulsoup, request, html)
+4. Getting live data about those stocks (yfinance)
+5. Chosing when to buy and sell those chosen stocks using a statistical approach (MACD, signal line)
+6. Automating the choosing, selling and buying by scheduling the tasks with a bot.
+
+
+![Sentiment](template%26images/images/sentimentTickers.PNG)
+![Sentiment](template%26images/images/AAPL.PNG)
+![Sentiment](template%26images/images/MACD.PNG)
+
 ### Hackerrank SQL
 
 Topics: **Data engineering**, **SQL**
@@ -68,7 +86,7 @@ This section contains all projects and work related to Data Science. This means,
 For now, it contains three distinct projects: housing prediction, tennis sentiment analysis and computer vision and classification using ML and Deep Learning.
 Further projects are still work in progress and will soon be added: computer vision (face mask detection) using deep learning.
 
-### [Project 3: Housing prediction regression (EDA, ML)](https://github.com/grillon6u/Louis_Portfolio/tree/main/Data-science-projects/housing_prediction_regresssion)
+### [Project 4: Housing prediction regression (EDA, ML)](https://github.com/grillon6u/Louis_Portfolio/tree/main/Data-science-projects/housing_prediction_regresssion)
 
 Topics: **Data cleaning**, **Exploratory Data Analysis**, **Data Mining**, **Pipelines**, **Python**, **Feature Engineering**, **Machine Learning**, **Supervised regression**, **Parameter optimization**, **Ensemble Learning**
 
@@ -88,7 +106,7 @@ The project consists in several steps:
 
 ![Example of a decision tree applied to our dataset](template%26images/images/DT.jpg)
 
-### [Project 4: Tennis sentiment analysis (Webscrapping, twitter scrapping, NLP)](https://github.com/grillon6u/Louis_Portfolio/tree/main/Data-science-projects/tennis_sentiment_analysis_using_NLP_and_webscrapping)
+### [Project 5: Tennis sentiment analysis (Webscrapping, twitter scrapping, NLP)](https://github.com/grillon6u/Louis_Portfolio/tree/main/Data-science-projects/tennis_sentiment_analysis_using_NLP_and_webscrapping)
 
 Topics: **Webscrapping**, **Data visualization**, **Python**, **Social Network scrapping**, **Natural Language Processing**, **Sentiment Analysis**
 
@@ -100,7 +118,7 @@ This project's goal is to compare the global popularity of the most famous tenni
 5. Plotting their popularity as a rolling moving average
 ![Rolling moving average of Novak Djokovic's popularity on twitter](template%26images/images/djoko.jpg)
 
-### [Project 5: Computer Vision and Image classification using Machine Learning and Generative Adversial Networks (WIP)](https://github.com/grillon6u/Data_Science_projects/tree/main/Data-science-projects/Image%20classification%2C%20Dimensonality%20reduction%20and%20Generative%20Artificial%20Networks)
+### [Project 6: Computer Vision and Image classification using Machine Learning and Generative Adversial Networks (WIP)](https://github.com/grillon6u/Data_Science_projects/tree/main/Data-science-projects/Image%20classification%2C%20Dimensonality%20reduction%20and%20Generative%20Artificial%20Networks)
 
 Topics:  **Computer Vision**, **Data cleaning**, **Dimensonality reduction**, **Clustering**, **Machine Learning**, **Ensemble Learning**, **Deep Learning**, **Generative Adversial Network**, **Stacking**
 
