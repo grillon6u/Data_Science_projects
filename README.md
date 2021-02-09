@@ -22,10 +22,11 @@ The objective of this project was to gather data about the behaviour of multipla
 6. Use Natural Language Processing in order to analyze the questions that could have text answers. (nltk, textblob)
 7. Sum-up our results from a business perspective.
 
-**Result:** The project ended up successful, as it enabled me to correctly identify the potential customers and their characteristics for the mobile application project. In addition to that, it even provided new ideas for functionalities!
-
 
 ![Example of playing frequency visualization](template%26images/images/market.jpg)
+
+
+**Key results:** The project ended up successful, as it enabled me to correctly identify the potential customers and their characteristics for the mobile application project. In addition to that, it even provided new ideas for functionalities!
 
 ### [Project 2: PowerBI training](https://github.com/grillon6u/Louis_Portfolio/tree/main/Analytics-projects/PowerBI-training)
 
@@ -49,9 +50,10 @@ The building of that dashboard involved three main steps:
 
 This dashboard only connects to one source (kickstarter projects and their results). The main objective was here to explore the AI features of powerBI, as seen in the report.
 
-**Result:** The two powerBI dashboards resulted in clear and easy-to-use visuals, that are transforming raw data into powerful key indicators. In addition to that, it enabled me to improve my powerBI skills.
-
 ![Main interface of the dashboard](template%26images/images/AI.jpg)
+
+
+**Key results:** The two powerBI dashboards resulted in clear and easy-to-use visuals, that are transforming raw data into powerful key indicators. In addition to that, it enabled me to improve my powerBI skills.
 
 ### [Project 3: Stock market trading](https://github.com/grillon6u/Data_Science_projects/tree/main/Analytics-projects/Stock%20Trading)
 
@@ -71,7 +73,7 @@ This project's goal is to analyze data from different subreddits (wallstreetbets
 ![Sentiment](template%26images/images/AAPL.PNG)
 ![Sentiment](template%26images/images/MACD.PNG)
 
-**Result:** The project was a success, and ended up in an operational, automated and successful trading bot! In addition to that, it enabled me to improve my knowledge of the trading world.
+**Key results:** The project was a success, and ended up in an operational, automated and successful trading bot! In addition to that, it enabled me to improve my knowledge of the trading world.
 
 ### Hackerrank SQL
 
@@ -113,7 +115,7 @@ The project consists in several steps:
 
 ![Example of a decision tree applied to our dataset](template%26images/images/DT.jpg)
 
-**Result:** The project was successful, and provides a powerful Machine Learning model, that can predict with high accuracy (40K) the price of a house, given specific features.
+**Key results:** The project was successful, and provides a powerful Machine Learning model, that can predict with high accuracy (40K) the price of a house, given specific features.
 
 ### [Project 5: Tennis sentiment analysis (Webscrapping, twitter scrapping, NLP)](https://github.com/grillon6u/Louis_Portfolio/tree/main/Data-science-projects/tennis_sentiment_analysis_using_NLP_and_webscrapping)
 
@@ -128,7 +130,7 @@ This project's goal is to compare the global popularity of the most famous tenni
 
 ![Rolling moving average of Novak Djokovic's popularity on twitter](template%26images/images/novak.PNG)
 
-**Result:** The project was successful, and can be used to accurately measure the popularity of a given tennis player on twitter for the previous week. You can find a nice presentation of the project and its complete result on GitHub.
+**Key results:** The project was successful, and can be used to accurately measure the popularity of a given tennis player on twitter for the previous week. You can find a nice presentation of the project and its complete result on GitHub.
 
 ### [Project 6: Computer Vision and Image classification using Machine Learning and Generative Adversial Networks](https://github.com/grillon6u/Data_Science_projects/tree/main/Data-science-projects/Image%20classification%2C%20Dimensonality%20reduction%20and%20Generative%20Artificial%20Networks)
 
@@ -148,7 +150,7 @@ This project's goal is to classify images of hand written pictures, using Machin
 ![Final confusion matrix](template%26images/images/confusionMatrix.PNG)
 ![Gif of GAN generating](Data-science-projects/Image%20classification%2C%20Dimensonality%20reduction%20and%20Generative%20Artificial%20Networks/Images/dcgan.gif)
 
-**Result:** The project was successful, and ended up in a complex Machine Learning model, able to accurately (97%) classifiy hand written picture. It is fast (using a PCD), and can compete with a tested deep learning model. In addition to that, a Generative Adversial Network is also trained to create hand written pictures on itself.
+**Key results:** The project was successful, and ended up in a complex Machine Learning model, able to accurately (97%) classifiy hand written picture. It is fast (using a PCD), and can compete with a tested deep learning model. In addition to that, a Generative Adversial Network is also trained to create hand written pictures on itself.
 
 ### Shout out
 I would like to thank:
