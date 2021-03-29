@@ -116,6 +116,8 @@ The project consists in several steps:
 
 ![Example of a decision tree applied to our dataset](template%26images/images/DT.jpg)
 
+![Example of a decision tree applied to our dataset](template%26images/images/dashboard.PNG)
+
 **Key results:** The project was successful, and provides a powerful Machine Learning model, that can predict with high accuracy (40K) the price of a house, given specific features.
 
 ### [Project 5: Tennis sentiment analysis (Webscrapping, twitter scrapping, NLP)](https://github.com/grillon6u/Louis_Portfolio/tree/main/Data-science-projects/tennis_sentiment_analysis_using_NLP_and_webscrapping)
