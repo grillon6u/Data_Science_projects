@@ -96,7 +96,7 @@ Further projects are still work in progress and will soon be added: computer vis
 
 ### [Project 4: Housing prediction regression (EDA, ML)](https://github.com/grillon6u/Louis_Portfolio/tree/main/Data-science-projects/housing_prediction_regresssion)
 
-Topics: **Data cleaning**, **Exploratory Data Analysis**, **Data Mining**, **Pipelines**, **Python**, **Feature Engineering**, **Machine Learning**, **Supervised regression**, **Parameter optimization**, **Ensemble Learning**
+Topics: **Data cleaning**, **Exploratory Data Analysis**, **Data Mining**, **Pipelines**, **Python**, **Feature Engineering**, **Machine Learning**, **Supervised regression**, **Parameter optimization**, **Ensemble Learning**, **Dashboard for Machine Learning**
 
 This project consists in the analysis and prediction of housing prices (regression problem). The dataset used is a very famous one in the data science community, and can also be found with the link in the python notebook directly.
 The project consists in several steps:
@@ -107,6 +107,7 @@ The project consists in several steps:
 4. Training of Machine Learning models (sklearn, xgboost)
 5. Fine-tuning those models (gridsearch, randomizedsearch)
 6. Combining them into one even more performant model using ensemble learning.
+7. Visualizing the results and the performances of the model in a robust dashboard
 
 
 ![EDA of the housing prices in the Californian region](template%26images/images/house.jpg)
