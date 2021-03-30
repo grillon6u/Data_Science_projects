@@ -73,7 +73,7 @@ This project's goal is to analyze data from different subreddits (wallstreetbets
 ![Sentiment](template%26images/images/sentimentTickers.PNG)
 ![Sentiment](template%26images/images/AAPL.PNG)
 ![Sentiment](template%26images/images/MACD.PNG)
-![Sentiment](template%26images/images/MACD.PNG)
+![Sentiment](template%26images/images/screenRL.PNG)
 
 **Key results:** The project was a success, and ended up in an operational, automated and successful trading bot! In addition to that, it enabled me to improve my knowledge of the trading world.
 
