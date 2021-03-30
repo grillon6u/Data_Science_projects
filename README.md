@@ -57,7 +57,7 @@ This dashboard only connects to one source (kickstarter projects and their resul
 
 ### [Project 3: Stock market trading](https://github.com/grillon6u/Data_Science_projects/tree/main/Analytics-projects/Stock%20Trading)
 
-Topics: **Stock trading**, **Sentiment analysis**, **wallstreetbets**, **Algorithmic trading**, **Data visualization**, **Trading bot**, **MACD**, **Natural Language Processing**
+Topics: **Stock trading**, **Sentiment analysis**, **wallstreetbets**, **Algorithmic trading**, **Data visualization**, **Trading bot**, **MACD**, **Natural Language Processing**, **Reinforcement Learning**, **Financial signals**
 
 This project's goal is to analyze data from different subreddits (wallstreetbets, stockexchange,...) in order to choose in which stock to invest for a given day, and then to actually invest in it at the right time, in order to make a measurable profit. (This project also involved understanding how the stock market actually works). The main steps of the project are:
 
@@ -67,11 +67,13 @@ This project's goal is to analyze data from different subreddits (wallstreetbets
 4. Getting live data about those stocks (yfinance)
 5. Chosing when to buy and sell those chosen stocks using a statistical approach (MACD, signal line)
 6. Automating the choosing, selling and buying by scheduling the tasks with a bot.
+7. Trying a Reinforcement Learning model to trade the stocks regarding other financial signals (SMA, OBV, RSI) and compare it with our MACD bot
 
 
 ![Sentiment](template%26images/images/sentimentTickers.PNG)
 ![Sentiment](template%26images/images/AAPL.PNG)
 ![Sentiment](template%26images/images/MACD.PNG)
+![Sentiment](template%26images/images/screenRL.PNG)
 
 **Key results:** The project was a success, and ended up in an operational, automated and successful trading bot! In addition to that, it enabled me to improve my knowledge of the trading world.
 
