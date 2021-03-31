@@ -57,17 +57,18 @@ This dashboard only connects to one source (kickstarter projects and their resul
 
 ### [Project 3: Stock market trading](https://github.com/grillon6u/Data_Science_projects/tree/main/Analytics-projects/Stock%20Trading)
 
-Topics: **Stock trading**, **Sentiment analysis**, **wallstreetbets**, **Algorithmic trading**, **Data visualization**, **Trading bot**, **MACD**, **Natural Language Processing**, **Reinforcement Learning**, **Financial signals**
+Topics: **Stock trading**, **Sentiment analysis**, **wallstreetbets**, **Algorithmic trading**, **Data visualization**, **Trading bot**, **MACD**, **Natural Language Processing**,**Text summarization**, **Transformers**, **Reinforcement Learning**, **Financial signals**
 
 This project's goal is to analyze data from different subreddits (wallstreetbets, stockexchange,...) in order to choose in which stock to invest for a given day, and then to actually invest in it at the right time, in order to make a measurable profit. (This project also involved understanding how the stock market actually works). The main steps of the project are:
 
 1. Measuring the evolution of the number of times each stock is mentionnent in those subreddits (python, praw)
 2. Combining those results with the evolution of the sentiment (the positivity) of those quotes, in order to identify the stocks (AAPL, GME, ...) that have a good trend from a social media point of view (pandas, nltk)
-3. Adding stocks that are trending on yahoo finance, while parsing it (mybeautifulsoup, request, html)
-4. Getting live data about those stocks (yfinance)
-5. Chosing when to buy and sell those chosen stocks using a statistical approach (MACD, signal line)
-6. Automating the choosing, selling and buying by scheduling the tasks with a bot.
-7. Trying a Reinforcement Learning model to trade the stocks regarding other financial signals (SMA, OBV, RSI) and compare it with our MACD bot
+3. Web scrappe Google news to get articles about those stocks, summarize them and apply some NLP to get sentiment (hugging face)
+4. Adding stocks that are trending on yahoo finance, while parsing it (mybeautifulsoup, request, html)
+5. Getting live data about those stocks (yfinance)
+6. Chosing when to buy and sell those chosen stocks using a statistical approach (MACD, signal line)
+7. Automating the choosing, selling and buying by scheduling the tasks with a bot.
+8. Trying a Reinforcement Learning model to trade the stocks regarding other financial signals (SMA, OBV, RSI) and compare it with our MACD bot
 
 
 ![Sentiment](template%26images/images/sentimentTickers.PNG)
