@@ -158,6 +158,28 @@ This project's goal is to classify images of hand written pictures, using Machin
 
 **Key results:** The project was successful, and ended up in a complex Machine Learning model, able to accurately (97%) classifiy hand written picture. It is fast (using a PCD), and can compete with a tested deep learning model. In addition to that, a Generative Adversial Network is also trained to create hand written pictures on itself.
 
+### [Project 7: Weather forecasting in Melbourne](https://github.com/grillon6u/Louis_Portfolio/tree/main/Data-science-projects/housing_prediction_regresssion)
+
+Topics: **Time series**, **Data visualization**, **Facebook Prophet**, **Forecasting**, **Python**
+
+This project consists in the analysis and prediction of temperature in the city of Melbourne, using a specific time series model (Facebook Prophet). The dataset can be found on Kaggle (link in the notebook)
+
+
+1. Importing the data
+2. Exploratory Data Analysis (using pandas)
+3. Creation of the final dataset (dealing with time types, filling missing values)
+4. Training of a Time series model (Facebook Prophet)
+5. Visualizing the results, and looking at the trends in the data and the forecasted data (climate change)
+
+
+![Key insights about the target metrci using klib](template%26images/images/modeltemp.PNG)
+
+![Example of a decision tree applied to our dataset](template%26images/images/trendtemp.PNG)
+
+![Example of a decision tree applied to our dataset](template%26images/images/monthtemp.PNG)
+
+**Key results:** The project was successful, and provides a fast and powerful model, that can predict the temperature in Melbourne for a chosen number of days.
+
 ### Shout out
 I would like to thank:
 - Aurelien Geron, who wrote "Hands-on ML", which I highly recommend
