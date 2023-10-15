@@ -78,7 +78,7 @@ This project's goal is to analyze data from different subreddits (wallstreetbets
 
 **Key results:** The project was a success, and ended up in an operational, automated and successful trading bot! In addition to that, it enabled me to improve my knowledge of the trading world.
 
-### [Project 4: Automatic identification of new doctors in my region](https://github.com/grillon6u/Data_Science_projects/tree/main/Analytics-projects/Doctolib webscraping automation)
+### [Project 4: Automatic identification of new doctors in my region]([https://github.com/grillon6u/Data_Science_projects/tree/main/Analytics-projects/Doctolib webscraping automation](https://github.com/grillon6u/Data_Science_projects/tree/main/Analytics-projects/Doctolib%20webscraping%20automation))
 
 Topics: **Webscraping**, **Automation**
 
